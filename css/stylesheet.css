@@ -33,4 +33,22 @@ p{
 .card-footer{
     background-color:rgba(61, 40, 40, 0.541);
     font-size:30px;
+    padding:10px;
+}.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0.329);
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 0px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    bottom: 0;
+    left: 0;
 }
