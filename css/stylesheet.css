@@ -12,3 +12,8 @@ h1{
     position: center;
     
 }
+p{
+    text-align: center;
+    color:white;
+    font-size: 25px;
+}
