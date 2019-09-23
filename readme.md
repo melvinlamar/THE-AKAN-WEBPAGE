@@ -12,3 +12,8 @@ html-used to create the body structure of webpage
 custom css-extensively used for styling the webpage
 bootstrap css- used for further styling
 javascript-used to emulate behavior of the webpage for best interaction of webpage with the user
+## Support and contact details
+ kindly reach out to me at 0716543740 or melomuriithi@gmail.com for any technical problem.
+### License
+*{Determine the license under which this application can be used.  See below for more details on licensing.}
+Copyright (c)2019 *melvin muriithi kamere*
