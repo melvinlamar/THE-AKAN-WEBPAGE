@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>thee-akan-application</title>
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/stylesheet.css"rel="stylesheet" type="text/css">
+    <link href="./css/bootstrap.css" rel="stylesheet">
+    <link href="./css/stylesheet.css"rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Frijole|Rock+Salt&display=swap" rel="stylesheet"> 
 </head>
 <body>
@@ -21,7 +21,7 @@
 <br><br>
     <div class= "card">
         <div class ="card-body">
-            <form name="myForm" onsubmit="event.preventDefault(); calculator()">
+            <form name="myForm" onsubmit="event.preventDefault(); login()">
                 <center>
                 
                         <h3><b>Gender</b></h3>
@@ -34,7 +34,7 @@
           <h3><b>Date of birth</b></h3>                                      
                       <input type="date" name="date"><br><br>
                         <input type="submit" value="Submit" >
-                                </center>
+                </center>
             </form>  
         </div>
         <br>
@@ -43,19 +43,22 @@
                 </div>  
                 <div class="card">
                 <div class="card-footer"><br>
-                    <p id="result"><b></b></p>
+                    <p id="result"></p>
                 </div>
                 </div>  
          </div>
-     <br><br><br>
+     <br><br>
+     <center>
+            <a href="index.html"><b>REFRESH</b></a>
+    </center>
+     <br><br>
       <div class="footer">
-        <footer><p>Posted by: MURIITHI MELVIN</p>
+        <footer>
             <p>Contact information: <a href="mailto:melomuriithi@gmail.com">melomuriithi@gmail.com</a></p>
             <p>&copy; melvin muriithi kamere</p>
         </footer>
       </div>
-        
                          
-    <script src=js/script.js></script>     
+    <script src="./js/script.js"></script>     
 </body>
 </html>

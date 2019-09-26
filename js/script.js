@@ -12,20 +12,21 @@ function login(){
     var date=document.forms["myForm"]["date"].value;
     var dateObject=new Date(date);
     var day=dateObject.getDay();
-    if (gender==="male"){
-        name=male[day];
-    }else if (gender==="female"){
-        name=female[day];
-    }else{
-        alert("invalid option")
+    if(date !=null&& date != undefined && date != ""){
+        if (gender==="male"){
+            name=male[day];
+        }else if (gender==="female"){
+            name=female[day];
+        }else{
+            alert("invalid option")
+        }
     }
+    else{
+        alert("Please enter a valid year")
+    }
+    
     document.getElementById("result").innerHTML=name;
     window.scrollTo(0,document.body.scrollHeight);
-
-        var frm = document.getElementsByName('date')[0];
-        frm.submit(); // Submit
-        frm.reset(dateObject);  // Reset
-        return false; // Prevent page refresh
 
      return name;
 }
